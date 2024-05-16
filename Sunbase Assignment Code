@@ -1,14 +1,6 @@
-### Step-by-Step Implementation
 
-#### 1. Setup the Repository
 
-Create a new public repository on GitHub and clone it to your local machine.sh
-
-git clone https://github.com/yourusername/rag-chatbot.git
-
-cd rag-chatbot
-
-#### 2. Frontend Development
+#### 1. Frontend Development
 
 Create a simple HTML/CSS/JS interface.
 
@@ -152,7 +144,7 @@ function sendMessage() {
 
 }
 
-#### 3. Backend Development
+#### 2. Backend Development
 
 Create a Java project with Maven/Gradle.
 
@@ -261,7 +253,7 @@ public class ChatController {
 
 }
 
-#### 4. Embedding and Vector Database Integration
+#### 3. Embedding and Vector Database Integration
 
 For embeddings, you can use a library like sentence-transformers in Python to generate 
 embeddings. Then, use the Java API to interact with the Vector DB.
